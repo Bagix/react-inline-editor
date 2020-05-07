@@ -1,0 +1,49 @@
+.editor {
+  width: 400px;
+  border-radius: 3px;
+  margin: auto;
+  padding: 1rem;
+  background-color: rgb(175, 29, 114);
+}
+
+.close {
+  display: block;
+  margin-top: -5px;
+  margin-left: 97%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.controls button,
+.controls input {
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  font-size: 1rem;
+}
+
+.controls button {
+  margin-bottom: .5rem;
+  width: 26px;
+}
+
+.controls input[type=color] {
+  width: 100%;
+}
+
+.editor textarea {
+  width: 80%;
+  min-height: 75px;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  border-radius: 3px;
+  padding: .45rem;
+}

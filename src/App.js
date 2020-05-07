@@ -81,7 +81,7 @@ class App extends Component {
         <img src={logo} className="App-logo" alt="logo" />
         <div className="container">
           {editor}
-          <p
+          <p className="text"
           style={editorStyle}
           onClick={this.openEditorHandler}>
             {this.state.text}
